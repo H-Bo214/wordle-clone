@@ -4,7 +4,6 @@ import { answer } from '../Game/Game.js'
 
 const Guess = ({ value }) => {
   const result = checkGuess(value, answer)
-  console.log('answer in Guess: ', answer)
   return (
     <p className='guess'>
       {range(5).map((num) => {
